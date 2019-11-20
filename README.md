@@ -1,6 +1,6 @@
 # Mockito
 
-###Configuration du projet:
+### Configuration du projet:
 
 Rajouter la dépendance maven
 
@@ -14,9 +14,9 @@ Deux manières possibles d'intégrer mockito aux tests junit:
 
 1. Ajouter l'annotation @RunWith(MockitoJunitRunner.class) à la classe de test:
 
-    @RunWith(MockitoJunitRunner.class)
+    *@RunWith(MockitoJunitRunner.class)*
     
-    public class TestClass{
+    *public class TestClass{*
     
-    }
+    *}*
     
