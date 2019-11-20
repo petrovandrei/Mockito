@@ -4,15 +4,15 @@
 
 Rajouter la dépendance maven
 
-<dependency>
-<groupid>org.mockito</groupid>
-<artifactid>mockito-all</artifactid>
-<version>1.9.5</version>
-</dependency>
+*<dependency>*
+*<groupid>org.mockito</groupid>*
+*<artifactid>mockito-all</artifactid>*
+*<version>1.9.5</version>*
+*</dependency>*
 
-Deux manières possibles d'intégrer mockito aux tests junit: 
+### Deux manières possibles d'intégrer mockito aux tests junit: 
 
-### 1. Ajouter l'annotation @RunWith(MockitoJunitRunner.class) à la classe de test:
+#### 1. Ajouter l'annotation @RunWith(MockitoJunitRunner.class) à la classe de test:
 
     *@RunWith(MockitoJunitRunner.class)*
     
@@ -20,7 +20,7 @@ Deux manières possibles d'intégrer mockito aux tests junit:
     
     *}*
     
-### 2. Faire appel à la méthode initMocks dans la méthode SetUp:
+#### 2. Faire appel à la méthode initMocks dans la méthode SetUp:
 
     *@Before*
     *public void setUp(){*
