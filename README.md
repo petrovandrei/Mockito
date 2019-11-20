@@ -6,8 +6,8 @@
 
 ```
 <dependency>
-    <groupid>org.mockito</groupid>
-    <artifactid>mockito-all</artifactid>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-all</artifactId>
     <version>1.9.5</version>
 </dependency>
 ```
